@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="server:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17ee3171-d33f-4023-a501-c20e3e0e03b4" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Kill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/zx/api/enums/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/zx/api/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/zx/api/enums/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/zx/api/response/BaseResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/kill.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/dto/KillSuccessUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/entity/ItemKill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/entity/ItemKillSuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/entity/RandomCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/mapper/ItemKillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/mapper/ItemKillSuccessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/mapper/RandomCodeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/zx/model/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/RandomCodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/dto/KillSuccessUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/entity/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/entity/ItemKill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/entity/ItemKillSuccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/entity/RandomCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/mapper/ItemKillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/mapper/ItemKillSuccessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/mapper/ItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/mapper/RandomCodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/zx/model/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/mappers/ItemKillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/mappers/ItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/mappers/RandomCodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/kill.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/SchedulerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/config/ZooKeeperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/controller/KillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/dto/KillDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/dto/MailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/enums/SysConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/IKillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/RabbitReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/RabbitSenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/impl/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/service/impl/KillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/zx/server/utils/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/spring/spring-jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/killRecord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/bootstrap-3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/webapp/static/plugins/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/MainApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/RabbitmqConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/RabbitmqConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/RabbitmqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/RedissonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/SchedulerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/config/ZooKeeperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/controller/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/controller/KillController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/dto/KillDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/dto/MailDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/enums/SysConstant$OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/enums/SysConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/CustomRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/IItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/IKillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/MailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/RabbitReceiverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/RabbitSenderService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/RabbitSenderService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/RabbitSenderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/SchedulerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/impl/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/service/impl/KillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/utils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/com/zx/server/utils/SnowFlake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/spring/spring-jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/MainApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/RabbitmqConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/RabbitmqConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/RabbitmqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/RedissonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/SchedulerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/config/ZooKeeperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/controller/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/controller/KillController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/dto/KillDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/dto/MailDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/enums/SysConstant$OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/enums/SysConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/CustomRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/IItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/IKillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/MailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/RabbitReceiverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/RabbitSenderService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/RabbitSenderService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/RabbitSenderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/SchedulerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/impl/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/service/impl/KillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/utils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/zx/server/utils/SnowFlake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/spring/spring-jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/amqp-client-4.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/byte-buddy-1.8.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/cache-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-lang3-3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/curator-client-2.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/curator-framework-2.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/curator-recipes-2.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/ehcache-core-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/gson-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/guava-19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/http-client-1.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jackson-core-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jackson-databind-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jackson-dataformat-yaml-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/javax.mail-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jline-0.9.94.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/joda-time-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jodd-bean-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jodd-core-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jsqlparser-0.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/logback-classic-1.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/logback-core-1.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/lombok-1.16.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/model-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/mybatis-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/mybatis-spring-boot-starter-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-3.10.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-buffer-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-codec-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-codec-dns-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-common-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-handler-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-resolver-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-resolver-dns-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/netty-transport-4.1.30.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/pagehelper-4.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/reactive-streams-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/reactor-core-2.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/redisson-3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/shiro-core-1.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/shiro-ehcache-1.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/shiro-spring-1.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/shiro-web-1.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/slf4j-log4j12-1.7.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/snakeyaml-1.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-amqp-1.7.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-autoconfigure-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-amqp-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-jdbc-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-logging-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-mail-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-redis-1.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-boot-starter-web-1.5.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-data-commons-1.13.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-data-keyvalue-1.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-data-redis-1.8.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-messaging-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-oxm-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-rabbit-1.7.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-retry-1.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/tomcat-jdbc-8.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/tomcat-juli-8.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/zookeeper-3.4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/killRecord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/bootstrap-3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/static/plugins/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/test-classes/Test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\app\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hWaNRaDlRxGcPjogzr7Qq1g89D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="全局库" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zx.server.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/server_war_exploded/" />
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/server_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="未命名_Item-Kill-master_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49440" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MainApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17ee3171-d33f-4023-a501-c20e3e0e03b4" name="默认的" comment="" />
+      <created>1600129262276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600129262276</updated>
+      <workItem from="1600129263681" duration="1152000" />
+      <workItem from="1600131220381" duration="698000" />
+      <workItem from="1600137892988" duration="384000" />
+      <workItem from="1600138383305" duration="1575000" />
+      <workItem from="1600141447425" duration="1859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="kill" />
+    <option name="LAST_COMMIT_MESSAGE" value="kill" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="377" y="206" key="#Notifications" timestamp="1600139290053">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="377" y="206" key="#Notifications/0.31.1280.689@0.31.1280.689" timestamp="1600139290053" />
+    <state x="106" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600131445989">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="106" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.689@0.31.1280.689" timestamp="1600131445989" />
+    <state x="421" y="124" key="FileChooserDialogImpl" timestamp="1600141641833">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="421" y="124" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1600141641833" />
+    <state x="483" y="284" key="Github.CreateGistDialog" timestamp="1600139259487">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="483" y="284" key="Github.CreateGistDialog/0.31.1280.689@0.31.1280.689" timestamp="1600139259487" />
+    <state width="1222" height="164" key="GridCell.Tab.0.bottom" timestamp="1600138279843">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1222" height="164" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1600138279843" />
+    <state width="1222" height="164" key="GridCell.Tab.0.center" timestamp="1600138279843">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1222" height="164" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1600138279843" />
+    <state width="1222" height="164" key="GridCell.Tab.0.left" timestamp="1600138279843">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1222" height="164" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1600138279843" />
+    <state width="1222" height="164" key="GridCell.Tab.0.right" timestamp="1600138279843">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1222" height="164" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1600138279843" />
+    <state width="834" height="164" key="GridCell.Tab.1.bottom" timestamp="1600131925872">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1600131925872" />
+    <state width="834" height="164" key="GridCell.Tab.1.center" timestamp="1600131925871">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1600131925871" />
+    <state width="834" height="164" key="GridCell.Tab.1.left" timestamp="1600131925871">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1600131925871" />
+    <state width="834" height="164" key="GridCell.Tab.1.right" timestamp="1600131925871">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1600131925871" />
+    <state width="834" height="164" key="GridCell.Tab.2.bottom" timestamp="1600131925872">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.2.bottom/0.31.1280.689@0.31.1280.689" timestamp="1600131925872" />
+    <state width="834" height="164" key="GridCell.Tab.2.center" timestamp="1600131925872">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.2.center/0.31.1280.689@0.31.1280.689" timestamp="1600131925872" />
+    <state width="834" height="164" key="GridCell.Tab.2.left" timestamp="1600131925872">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.2.left/0.31.1280.689@0.31.1280.689" timestamp="1600131925872" />
+    <state width="834" height="164" key="GridCell.Tab.2.right" timestamp="1600131925872">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="834" height="164" key="GridCell.Tab.2.right/0.31.1280.689@0.31.1280.689" timestamp="1600131925872" />
+    <state x="0" y="31" key="SettingsEditor" timestamp="1600130410170">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="0" y="31" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1600130410170" />
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2" timestamp="1600143320135">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="233" y="116" key="Vcs.Push.Dialog.v2/0.31.1280.689@0.31.1280.689" timestamp="1600143320135" />
+    <state x="442" y="289" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600142483635">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="442" y="289" key="git4idea.remote.GitConfigureRemotesDialog/0.31.1280.689@0.31.1280.689" timestamp="1600142483635" />
+  </component>
+</project>
